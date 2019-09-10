@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun  5 00:49:59 2019
-
+Utilities for Pickling and unplickling DataSets
 @author: SS
 """
 
@@ -12,7 +11,7 @@ import _pickle as pickle
 import matplotlib.pyplot as plt
 import numpy as np
 
-#from tensorflow.keras.utils import to_categorical
+
 
 class DataSet:
     def __init__(self, fname=None, labelcnt=None, flatten=True):
